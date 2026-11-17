@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>عروض ستيم — Steam Deals</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="top-bar">
+      <h1>🎮 <span data-i18n="siteTitle"></span></h1>
+      <button id="lang-toggle" class="lang-btn">English</button>
+    </div>
+    <p data-i18n="tagline"></p>
+
+    <nav class="tabs">
+      <button id="tab-deals" class="tab active" data-i18n="tabDeals"></button>
+      <button id="tab-search" class="tab" data-i18n="tabSearch"></button>
+    </nav>
+
+    <div class="controls">
+      <div id="search-box" class="search-box hidden">
+        <input id="search-input" type="text" data-i18n-placeholder="searchPlaceholder" />
+        <button id="search-btn" data-i18n="searchBtn"></button>
+      </div>
+      <div class="budget-box">
+        <label for="budget" data-i18n="budgetLabel"></label>
+        <input id="budget" type="number" min="0" step="1" placeholder="∞" />
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="status" class="status hidden"></div>
+    <section id="games-section" class="hidden">
+      <div id="games-grid" class="games-grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p data-i18n="footer"></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
