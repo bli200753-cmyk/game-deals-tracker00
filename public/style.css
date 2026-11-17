@@ -17,7 +17,7 @@ body {
   padding: 100px 20px 50px;
   background:
     linear-gradient(180deg, rgba(15, 27, 40, 0.5) 0%, rgba(22, 32, 45, 0.72) 55%, #16202d 100%),
-    url("https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/library_hero.jpg") center 30% / cover no-repeat;
+    url("https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/b2ebc232d3d88eafa8546f65b90d8dc8d2ece0b4/ss_b2ebc232d3d88eafa8546f65b90d8dc8d2ece0b4.1920x1080.jpg?t=1793261976") center 30% / cover no-repeat;
 }
 
 .top-bar {
